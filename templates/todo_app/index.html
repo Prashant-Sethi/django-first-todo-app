@@ -7,7 +7,7 @@
             <h2>Add Item</h2>
             <form action="{% url 'add_todo' %}" class="form-inline" method="post">
                 {% csrf_token %}
-                <input type="text" name="todotext" class="form-control mb-2 mr-sm-2" placeholder="What doy you want to do next?">
+                <input type="text" name="todotext" class="form-control mb-2 mr-sm-2" placeholder="What do you want to do next?">
                 <button type="submit" class="btn btn-primary mb-2">Add To List</button>
             </form>
         </div>
